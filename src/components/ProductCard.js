@@ -22,16 +22,16 @@ const ProductCard = ({ src, title, content }) => (
           sx={{ objectFit: "fill", height: 220,}}
         ></CardMedia>
         <CardContent>
-          <Typography variant="h5" component="div" mb={2} color="textPrimary">{title}</Typography>
+          <Typography variant="h5" component="div" mb={2} color="primary">{title}</Typography>
           <Typography variant="body2" color="textSecondary">{content}</Typography>
         </CardContent>
         <CardActions>
-          <Button variant="contained" startIcon={<AddShoppingCartIcon/>} raised>
+          <Button variant="contained" startIcon={<AddShoppingCartIcon/>} raised color="secondary">
             
-          <Typography variant="body2">Agregar al Carrito</Typography>
+          <Typography variant="body1">Agregar al Carrito</Typography>
           </Button>
-          <Button variant="outlined" color="secondary" raised>
-          <Typography variant="body2">Ver Más</Typography>
+          <Button color="secondary" variant="outlined">
+          <Typography variant="body1">Ver Más</Typography>
           </Button>
         </CardActions>
       </Card>
