@@ -21,6 +21,12 @@ const Products = () => (
           title="Fruits Cake"
           content="Pastel de bayas dulces, pequeño."/>
 
+          <ProductCard
+          title="Tarta"
+          content="Esta tarta es una expresion de la diversion no solo por su divertida forma si no por el cautivante sabor "
+          src="https://th.bing.com/th/id/OIG2.E7KLX2EzQ.qF7xYFLOjg?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          />
+
           
     </Grid2>
 );
